@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets"
+ id="https://kktv.local" version="1.0.0" viewmodes="maximized">
+ <tizen:application id="org.kktv.live" package="org.kktv" required_version="5.0"/>
+ <content src="index.html"/><name>KKTV</name><description>KKTV Live Television</description>
+ <tizen:profile name="tv"/>
+ <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
+ <tizen:setting screen-orientation="landscape" context-menu="disable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>

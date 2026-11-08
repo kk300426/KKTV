@@ -1,0 +1,10 @@
+
+/* Samsung TV ten-foot layout and remote focus */
+html,body{overscroll-behavior:none} body{font-size:18px}
+button,.channel-card,.filter{outline-offset:5px}
+button:focus-visible,.channel-card:focus,.channel-card:focus-visible,.filter:focus-visible{outline:4px solid #ffe16a!important;outline-offset:4px;border-color:#ffe16a!important;transform:scale(1.035);z-index:2}
+.channel-card{min-height:180px;padding:18px}.channel-logo{height:105px;font-size:26px}
+.channel-name{font-size:18px}.channel-type{font-size:14px}
+.filter{font-size:16px;padding:13px 22px}.player-actions button{min-width:118px;padding:15px 19px}.status{font-size:15px}
+@media(min-width:1100px){main{width:94vw;margin-top:24px}.channel-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:20px}}
+@media(max-width:1100px){.channel-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
